@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Coin Change</string>
+    <string name="total">Enter amount:</string>
+    <string name="cost">Enter cost:</string>
+</resources>
