@@ -30,7 +30,6 @@
                 android:elevation="4dp"
                 android:layout_gravity="center"
                 android:textAlignment="center"
-
                 />
             <ScrollView
                 android:layout_width="match_parent"
@@ -41,7 +40,7 @@
                 android:layout_marginBottom="5dp"
                 android:id="@+id/outPutTextViewId"
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
+                android:layout_height="wrap_content"
                 android:textSize="16sp"
                 android:fontFamily="@font/livingstone"
                 android:gravity="bottom|center"
@@ -94,7 +93,7 @@
             <Button
                 android:layout_marginRight="20dp"
                 android:id="@+id/submitBtnId"
-                android:text="Change"
+                android:text="@string/ChangeBtn"
                 android:fontFamily="@font/aardvark_cafe"
                 android:textAllCaps="false"
                 android:textStyle="bold"
@@ -110,7 +109,7 @@
 
                 android:layout_marginRight="20dp"
                 android:id="@+id/detailsBtnId"
-                android:text="Details"
+                android:text="@string/DetailsBtn"
                 android:fontFamily="@font/aardvark_cafe"
                 android:textAllCaps="false"
                 android:textStyle="bold"
@@ -127,7 +126,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:layout_weight="1"
-                android:text="Reset"
+                android:text="@string/ResetBtn"
                 android:fontFamily="@font/aardvark_cafe"
                 android:textAllCaps="false"
                 android:onClick="resetEverything"

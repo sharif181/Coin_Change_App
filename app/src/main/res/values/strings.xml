@@ -2,4 +2,27 @@
     <string name="app_name">Coin Change</string>
     <string name="total">Enter amount:</string>
     <string name="cost">Enter cost:</string>
+    <string name="Option">What do you want to see?</string>
+    <string-array name="options">
+        <item>Total</item>
+        <item>Developer Info</item>
+    </string-array>
+
+    <string name="ChangeBtn">Change</string>
+    <string name="DetailsBtn">Details</string>
+    <string name="ResetBtn">Reset</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name ="tableHead1">Taka</string>
+    <string name ="totalText">Total</string>
+    <string name ="tableHead2">Note Number</string>
+    <string name ="devInfo">Md. Sharif Khan\nAndroid developer at catKin IT</string>
+    <string name="one">1</string>
+    <string name="two">2</string>
+    <string name="five">5</string>
+    <string name="ten">10</string>
+    <string name="twenty">20</string>
+    <string name="fifty">50</string>
+    <string name="hundred">100</string>
+    <string name="fivehundred">500</string>
+    <string name="thousand">1000</string>
 </resources>

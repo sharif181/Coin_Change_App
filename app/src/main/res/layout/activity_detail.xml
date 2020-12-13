@@ -5,13 +5,12 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:layout_height="match_parent"
-    android:layout_marginVertical="5dp"
     android:layout_marginHorizontal="5dp"
     tools:context=".detailActivity">
 
     <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="400dp"
+        android:layout_height="390dp"
         android:background="#DAD5D5">
 
         <TableRow
@@ -19,9 +18,8 @@
             android:layout_height="match_parent">
             <TextView
                 android:fontFamily="@font/aardvark_cafe"
-                android:text="Taka"
-                android:textFontWeight="1000"
-                android:textSize="34sp"
+                android:text="@string/tableHead1"
+                android:textSize="24sp"
                 android:textStyle="bold"
                 android:textColor="@android:color/holo_green_dark"
                 android:gravity="center"
@@ -30,10 +28,8 @@
             <TextView
                 android:gravity="center"
                 android:fontFamily="@font/aardvark_cafe"
-                android:textFontWeight="1000"
-
-                android:text="Note Number"
-                android:textSize="32sp"
+                android:text="@string/tableHead2"
+                android:textSize="24sp"
                 android:textStyle="bold"
                 android:textColor="@android:color/holo_green_dark"
                 android:layout_weight="1"
@@ -47,7 +43,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="1"
+                android:text="@string/one"
                 android:layout_weight="4"
                 android:textSize="24sp"
                 android:textColor="@android:color/background_dark"
@@ -61,7 +57,6 @@
                 android:textColor="@android:color/background_dark"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="5"
                 android:layout_weight="1"
                 android:textSize="24sp"
                 android:gravity="center"
@@ -78,7 +73,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="2"
+                android:text="@string/two"
                 android:layout_weight="4"
                 android:textSize="24sp"
                 android:textColor="@android:color/background_dark"
@@ -92,7 +87,6 @@
                 android:textColor="@android:color/background_dark"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="5"
                 android:layout_weight="1"
                 android:textSize="24sp"
                 android:gravity="center"
@@ -109,7 +103,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="5"
+                android:text="@string/five"
                 android:layout_weight="4"
                 android:textSize="24sp"
                 android:textColor="@android:color/background_dark"
@@ -123,7 +117,6 @@
                 android:textColor="@android:color/background_dark"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="5"
                 android:layout_weight="1"
                 android:textSize="24sp"
                 android:gravity="center"
@@ -140,7 +133,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="10"
+                android:text="@string/ten"
                 android:layout_weight="4"
                 android:textSize="24sp"
                 android:textColor="@android:color/background_dark"
@@ -154,7 +147,6 @@
                 android:textColor="@android:color/background_dark"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="5"
                 android:layout_weight="1"
                 android:textSize="24sp"
                 android:gravity="center"
@@ -171,7 +163,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="20"
+                android:text="@string/twenty"
                 android:layout_weight="4"
                 android:textSize="24sp"
                 android:textColor="@android:color/background_dark"
@@ -185,7 +177,6 @@
                 android:textColor="@android:color/background_dark"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="5"
                 android:layout_weight="1"
                 android:textSize="24sp"
                 android:gravity="center"
@@ -202,7 +193,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="50"
+                android:text="@string/fifty"
                 android:layout_weight="4"
                 android:textSize="24sp"
                 android:textColor="@android:color/background_dark"
@@ -216,7 +207,6 @@
                 android:textColor="@android:color/background_dark"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="5"
                 android:layout_weight="1"
                 android:textSize="24sp"
                 android:gravity="center"
@@ -233,7 +223,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="100"
+                android:text="@string/hundred"
                 android:layout_weight="4"
                 android:textSize="24sp"
                 android:textColor="@android:color/background_dark"
@@ -247,7 +237,6 @@
                 android:textColor="@android:color/background_dark"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="5"
                 android:layout_weight="1"
                 android:textSize="24sp"
                 android:gravity="center"
@@ -264,7 +253,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="500"
+                android:text="@string/fivehundred"
                 android:layout_weight="4"
                 android:textSize="24sp"
                 android:textColor="@android:color/background_dark"
@@ -278,7 +267,6 @@
                 android:textColor="@android:color/background_dark"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="5"
                 android:layout_weight="1"
                 android:textSize="24sp"
                 android:gravity="center"
@@ -295,7 +283,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="1000"
+                android:text="@string/thousand"
                 android:layout_weight="4"
                 android:textSize="24sp"
                 android:textColor="@android:color/background_dark"
@@ -309,7 +297,6 @@
                 android:textColor="@android:color/background_dark"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="5"
                 android:layout_weight="1"
                 android:textSize="24sp"
                 android:gravity="center"
@@ -326,7 +313,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Total"
+                android:text="@string/totalText"
                 android:layout_weight="4"
                 android:textSize="26sp"
                 android:fontFamily="@font/aardvark_cafe"
@@ -342,7 +329,6 @@
                 android:textColor="@android:color/background_dark"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="5"
                 android:layout_weight="1"
                 android:textSize="24sp"
                 android:gravity="center"
@@ -355,26 +341,31 @@
         </TableRow>
 
     </TableLayout>
-
     <LinearLayout
+        android:weightSum="3"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:gravity="center">
+        android:layout_height="wrap_content">
         <TextView
-            android:id="@+id/finalTakaId"
-            android:layout_width="240dp"
-            android:layout_height="100dp"
-            android:layout_gravity="center"
-            android:text="Total taka: 250"
-            android:gravity="center"
-            android:textColor="@android:color/holo_orange_light"
-            android:textSize="30sp"
-            android:fontFamily="@font/aardvark_cafe"
+            android:text="@string/Option"
+            android:textColor="@android:color/holo_green_light"
+            android:textSize="15sp"
             android:textStyle="bold"
-            >
-
-        </TextView>
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            android:layout_height="wrap_content"/>
+        <Spinner
+            android:id="@+id/spinnerID"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"/>
     </LinearLayout>
+    <fragment
+        android:name="com.example.coinchange.totalFragment"
+        android:id="@+id/myFragmentId"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </fragment>
 
 
 </LinearLayout>

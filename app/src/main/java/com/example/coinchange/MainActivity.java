@@ -30,7 +30,7 @@ public class MainActivity extends AppCompatActivity {
         outputView = findViewById(R.id.outPutTextViewId);
         oneTakaEdit = findViewById(R.id.oneTakaEditId);
         twoTakaEdit = findViewById(R.id.twoTakaEditId);
-        fiveTakaEdit = findViewById(R.id.fiftyTakaEditId);
+        fiveTakaEdit = findViewById(R.id.fiveTakaEditId);
         tenTakaEdit = findViewById(R.id.tenTakaEditId);
         twentyTakaEdit = findViewById(R.id.twentyTakaEditId);
         fiftyTakaEdit = findViewById(R.id.fiftyTakaEditId);
@@ -93,6 +93,8 @@ public class MainActivity extends AppCompatActivity {
 
         for(int j = 1; j<=9;j++)
             db.updateCoin(j,String.valueOf(coinNumber[9-j]));
+
+        
 
     }
 

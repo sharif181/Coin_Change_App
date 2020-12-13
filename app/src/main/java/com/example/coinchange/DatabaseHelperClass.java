@@ -21,16 +21,6 @@ public class DatabaseHelperClass extends SQLiteOpenHelper {
     public void onCreate(SQLiteDatabase db) {
         String CREATE_TABLE = "CREATE TABLE " + TABLE_NAME + "(" + ID + " INTEGER PRIMARY KEY," + COIN_NUMBER + " TEXT" + ")";
         db.execSQL(CREATE_TABLE);
-
-//        db.execSQL("INSERT INTO TABLE_NAME (ID,COIN_NUMBER) VALUES(1,'0')");
-//        db.execSQL("INSERT INTO TABLE_NAME (ID,COIN_NUMBER) VALUES(2,'0')");
-//        db.execSQL("INSERT INTO TABLE_NAME (ID,COIN_NUMBER) VALUES(3,'0')");
-//        db.execSQL("INSERT INTO TABLE_NAME (ID,COIN_NUMBER) VALUES(4,'0')");
-//        db.execSQL("INSERT INTO TABLE_NAME (ID,COIN_NUMBER) VALUES(5,'0')");
-//        db.execSQL("INSERT INTO TABLE_NAME (ID,COIN_NUMBER) VALUES(6,'0')");
-//        db.execSQL("INSERT INTO TABLE_NAME (ID,COIN_NUMBER) VALUES(7,'0')");
-//        db.execSQL("INSERT INTO TABLE_NAME (ID,COIN_NUMBER) VALUES(8,'0')");
-//        db.execSQL("INSERT INTO TABLE_NAME (ID,COIN_NUMBER) VALUES(9,'0')");
     }
 
     @Override
@@ -48,7 +38,6 @@ public class DatabaseHelperClass extends SQLiteOpenHelper {
             cursor.moveToFirst();
 
         int result = Integer.parseInt(cursor.getString(1));
-        //int result = cursor.getCount();
         return result;
     }
 
@@ -57,10 +46,8 @@ public class DatabaseHelperClass extends SQLiteOpenHelper {
         ContentValues values = new ContentValues();
         values.put(ID, id);
         values.put(COIN_NUMBER, coins);
-        // Inserting Row
         db.insert(TABLE_NAME, null, values);
-        //2nd argument is String containing nullColumnHack
-        db.close(); // Closing database connection
+        db.close();
     }
 
     public int updateCoin(int id,String coins) {
@@ -68,8 +55,6 @@ public class DatabaseHelperClass extends SQLiteOpenHelper {
         ContentValues values = new ContentValues();
         values.put(ID, id);
         values.put(COIN_NUMBER,coins);
-
-        // updating row
         return db.update(TABLE_NAME, values, ID + " = ?",
                 new String[] { String.valueOf(id) });
     }
